@@ -1,0 +1,82 @@
+{
+    "type": "Separator",
+    "name": "Aqua Seperator",
+    "description": "An odd Separator that can accumulate nearly all substances from slag and sand.",
+    "size": 4,
+    "hasPower": true,
+    "solid": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidCapacity": 100,
+    "craftTime": 0.5,
+    "spinnerSpeed": -5,
+    "consumes": {
+        "power": 5.4,
+        "liquid": {
+            "liquid": "slag",
+            "amount": 0.12
+        },
+        "items": {
+            "items": [
+                {
+                    "item": "sand",
+                    "amount": 2
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 100
+        },
+        {
+            "item": "lead",
+            "amount": 100
+        },
+        {
+            "item": "graphite",
+            "amount": 100
+        }
+    ],
+    "results": [
+        {
+            "item": "copper",
+            "amount": 10
+          },
+          {
+            "item": "lead",
+            "amount": 9
+          },
+          {
+            "item": "metaglass",
+            "amount": 8
+          },
+          {
+            "item": "graphite",
+            "amount": 7
+          },
+          {
+            "item": "silicon",
+            "amount": 6
+          },
+          {
+            "item": "titanium",
+            "amount": 5
+          },
+        {
+            "item": "thorium",
+            "amount": 4
+        },
+        {
+            "item": "coal",
+            "amount": 3
+        }
+        
+    
+        
+    ],
+    "category": "crafting",
+    "research": "core-AQUA",
+    "health": 690
+}

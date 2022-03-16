@@ -1,0 +1,45 @@
+{
+    "type": "flying",
+    "name": "Aqua-E.V.E",
+    "description": "Guardian of the Core and builds structures quickly.",
+    "drag": 0.15,
+    "speed": 5,
+    "research": "core-AQUA",
+    "maxVelocity": 2,
+    "canBuild": true,
+    "buildSpeed": 5,
+    "mineSpeed": 30,
+    "mineTier": 10,
+    "armor": 20,
+    "buildTier": 10,
+    "mass": 10,
+    "commandLimit": 18,
+    "health": 410,
+    "flying": true,
+    "rotateWeapon": true,
+    "rotatespeed": 0.06,
+    "baseRotateSpeed": 0.05,
+    "weapons": [
+      {
+        "name": "nothing",
+        "range": 170,
+        "x": 0,
+        "y": 2,
+        "reload": 5,
+        "shootcone": 360,
+        "spacing": 0,
+        "shootSound": "shoot",
+        "bullet": {
+          "type": "BasicBulletType",
+          "speed": 10,
+          "damage": 11,
+          "pierce": true,
+          "pierceCap": 1,
+          "splashDamage": 6,
+          "splashDamageRadius": 5,
+          "homingRange": 170,
+          "homingPower": 0.18
+        }
+      }
+    ]
+  }

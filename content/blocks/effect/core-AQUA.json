@@ -1,0 +1,19 @@
+{
+    "type": "CoreBlock",
+    "name": "Core: AQUA",
+    "description": "Core of the base. Very well armored and stores a huge amount of resources.",
+    "details": "Is protected by the builder drone.",
+    "size": 7,
+    "health": 18000,
+    "itemCapacity": 180000,
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 10000
+      }
+    ],
+    "category": "effect",
+    "research": "core-shard",
+    "unitType": "Aqua-E.V.E",
+    "unitCapModifier": 50
+  }
