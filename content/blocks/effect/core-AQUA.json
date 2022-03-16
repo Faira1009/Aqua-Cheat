@@ -9,7 +9,7 @@
     "requirements": [
       {
         "item": "copper",
-        "amount": 10000
+        "amount": 1000
       }
     ],
     "category": "effect",
