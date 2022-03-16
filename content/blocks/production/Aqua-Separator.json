@@ -1,6 +1,6 @@
 {
     "type": "Separator",
-    "name": "Aqua seperator",
+    "name": "Aqua separator",
     "description": "An odd separator that can accumulate nearly all substances from slag and sand.",
     "size": 4,
     "hasPower": true,
